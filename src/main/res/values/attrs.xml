@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageGrad">
+        <attr name="imageSrc" format="reference"/>    //it is for getting the drawable image reference
+        <attr name="imagePlaceholder" format="reference"/>    //Getting the placehoder for image (userful only for network image loading)
+        <attr name="imageError" format="reference"/>   //Getting the error image or the default image on account of internet error
+        <attr name="gradient" format="reference"/>     //Getting the gradient drawable
+    </declare-styleable>
+</resources>
